@@ -1,0 +1,25 @@
+.header {
+  font-weight: bolder;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0ff,
+    0 0 70px #0ff, 0 0 80px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+  animation: neon-glow 1s ease-in-out infinite alternate;
+  width: 100%;
+  height: 65px;
+  font-size: 36px;
+  text-align: center;
+  color: whitesmoke;
+  padding: 20px;
+}
+
+@keyframes neon-glow {
+  from {
+    text-shadow: 0 0 10px #302a2a, 0 0 20px #5a3c3c, 0 0 30px #000000,
+      0 0 40px rgb(33, 101, 189), 0 0 70px #0ff, 0 0 80px rgb(29, 13, 170),
+      0 0 100px rgb(19, 85, 226), 0 0 150px rgb(5, 156, 226);
+  }
+  to {
+    text-shadow: 0 0 20px #ffffff, 0 0 30px #1c0d52, 0 0 40px #230cec,
+      0 0 50px #0ff, 0 0 80px rgb(0, 0, 0), 0 0 90px rgb(7, 15, 90),
+      0 0 110px rgb(13, 161, 161), 0 0 160px #0ff;
+  }
+}
